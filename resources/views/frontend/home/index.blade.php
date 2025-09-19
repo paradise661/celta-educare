@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-thumb">
-                        <img src="{{ asset($slider->image ?? 'frontend/assets/images/main-home/hero_thumb3.png') }}"
+                        <img src="{{ asset($sliders->image) }}"
                             alt="">
                         <div class="hero_thumb_shape">
                             {{-- <img src="{{ asset('frontend/assets/images/main-home/hero3_dot_shape.png') }}" alt=""> --}}
